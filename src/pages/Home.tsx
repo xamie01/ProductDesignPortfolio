@@ -114,8 +114,23 @@ export function Home() {
               >
                 {/* Front Side */}
                 <div
-                  className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 rounded-2xl backdrop-blur-xl border border-white/20 flex flex-col items-center justify-center p-8 group-hover:border-cyan-400/40 transition-colors"
+                  className="absolute inset-0 rounded-2xl flex flex-col items-center justify-center p-0 overflow-hidden"
                   style={{ backfaceVisibility: 'hidden' }}
+                >
+                  <img 
+                    src="/IMG-20251202-WA0041.jpg" 
+                    alt="Perez Okpako" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Back Side */}
+                <div
+                  className="absolute inset-0 bg-black rounded-2xl backdrop-blur-xl border border-white/20 flex flex-col items-center justify-center p-8"
+                  style={{
+                    backfaceVisibility: 'hidden',
+                    transform: 'rotateY(180deg)',
+                  }}
                 >
                   <div className="text-center space-y-4">
                     <div className="text-8xl font-black bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
@@ -125,24 +140,6 @@ export function Home() {
                       <p className="text-xl font-semibold text-white">Years of Excellence</p>
                       <p className="text-sm text-white/60 mt-2">Strategic SDLC Leadership</p>
                     </div>
-                  </div>
-                </div>
-
-                {/* Back Side */}
-                <div
-                  className="absolute inset-0 bg-black rounded-2xl backdrop-blur-xl border border-white/20 flex flex-col p-8"
-                  style={{
-                    backfaceVisibility: 'hidden',
-                    transform: 'rotateY(180deg)',
-                  }}
-                >
-                  <div className="space-y-3 flex-1 overflow-y-auto">
-                    {workExperience.map((exp, idx) => (
-                      <div key={idx} className="group/item bg-white/5 rounded-lg p-4 border border-white/10 hover:bg-white/10 hover:border-cyan-400/40 transition-all">
-                        <p className="text-white font-semibold text-sm group-hover/item:text-cyan-400 transition-colors">{exp.company}</p>
-                        <p className="text-white/60 text-xs mt-1">{exp.role}</p>
-                      </div>
-                    ))}
                   </div>
                 </div>
               </div>
