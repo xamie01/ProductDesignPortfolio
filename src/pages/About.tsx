@@ -2,44 +2,44 @@ import { GlassCard } from '../components';
 
 export function About() {
   const skills = [
-    'UX/UI Design',
-    'Design Systems',
-    'User Research',
-    'Prototyping',
-    'Mobile Design',
-    'Web Design',
-    'Figma',
-    'Adobe XD',
-    'Interaction Design',
-    'Accessibility',
-    'Wireframing',
-    'User Testing',
+    'Strategic Planning',
+    'Product Management',
+    'Project Management',
+    'Business Analysis',
+    'Data Analysis',
+    'Agile/Scrum',
+    'Kanban',
+    'Waterfall',
+    'Requirements Definition',
+    'Stakeholder Management',
+    'Operations Optimization',
+    'Team Leadership',
   ];
 
   const values = [
     {
-      title: 'User-Centric',
-      description: 'Every design decision is rooted in user research and real user needs.',
+      title: 'Strategic Clarity',
+      description: 'Cut through complexity to identify what actually matters. Business context shapes every decision.',
     },
     {
-      title: 'Simplicity',
-      description: 'Complex problems require elegant, simple solutions that users love.',
+      title: 'Data-Driven Conviction',
+      description: 'Let metrics tell the story. I use analytics not just to report—but to predict, influence, and optimize.',
     },
     {
-      title: 'Collaboration',
-      description: 'Great design happens through cross-functional teamwork and open communication.',
+      title: 'Integrated Leadership',
+      description: 'Combine PM, BA, and DA perspectives to see problems from every angle and solve them completely.',
     },
     {
-      title: 'Innovation',
-      description: 'Constantly exploring new design trends and technologies to stay ahead.',
+      title: 'Operational Obsession',
+      description: 'Strategy without execution is fantasy. I build systems, processes, and teams that deliver at scale.',
     },
     {
-      title: 'Quality',
-      description: 'Attention to detail in every pixel, interaction, and user journey.',
+      title: 'Methodological Agility',
+      description: 'Agile, Waterfall, Kanban—use the right tool for the challenge. Context drives methodology, not dogma.',
     },
     {
-      title: 'Accessibility',
-      description: 'Designing for everyone, ensuring inclusive experiences for all users.',
+      title: 'Relentless Impact',
+      description: 'Measure twice, optimize always. Every initiative must move the needle on business outcomes.',
     },
   ];
 
@@ -57,48 +57,50 @@ export function About() {
           </h1>
 
           <p className="text-white/70 text-lg mb-12 max-w-3xl">
-            I'm a Product Design Lead passionate about creating beautiful, functional digital
-            experiences that solve real problems. With 8+ years in the industry, I've had the
-            privilege of working with startups, scale-ups, and established tech companies.
+            I'm Perez Opako—a strategic orchestrator of complex initiatives who thrives at the intersection of business, data, and technology.
+            With 6+ years across startups and enterprises, I've earned a reputation for translating ambitious business visions into scalable,
+            operational realities. My superpower? Seeing the complete picture and connecting the dots that others miss.
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
             <GlassCard>
-              <h2 className="text-2xl font-bold mb-4 text-cyan-400">My Story</h2>
+              <h2 className="text-2xl font-bold mb-4 text-cyan-400">My Journey</h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  My journey in design started with a curiosity about how things work. I spent
-                  countless hours sketching and prototyping, trying to understand the intersection
-                  of art and function.
+                  I started my career in operations, solving messy real-world problems on the ground floor. That experience taught me
+                  something invaluable: business excellence isn't about perfect planning—it's about understanding the friction points,
+                  data signals, and stakeholder needs, then building systems that actually work.
                 </p>
                 <p>
-                  Over the years, I've evolved from a hands-on designer to a design leader, learning
-                  that the greatest impact comes from building strong teams and fostering a culture
-                  of design excellence.
+                  Over six years, I've played different roles deliberately—from operations specialist to product manager to general manager.
+                  Each position taught me a new lens. At FareNow, I orchestrated operations for a superapp scaling across regions. At Farerun,
+                  I optimized logistics networks. At Softkodes, I bridged the gap between product vision and technical reality. At Blendko,
+                  I ensured quality didn't compromise speed. At Delta Ride, I consulted on govtech complexities.
                 </p>
                 <p>
-                  Today, I'm committed to mentoring the next generation of designers while pushing
-                  the boundaries of what's possible in digital design.
+                  The pattern? I'm energized by complexity. I don't run from the hard problems—I break them down, find the leverage points,
+                  and build teams that execute with clarity and purpose. My career is a testament to strategic flexibility and obsessive focus
+                  on measurable outcomes.
                 </p>
               </div>
             </GlassCard>
 
             <GlassCard>
-              <h2 className="text-2xl font-bold mb-4 text-blue-400">Design Philosophy</h2>
+              <h2 className="text-2xl font-bold mb-4 text-blue-400">My Philosophy</h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  I believe great design is invisible. It should feel natural, intuitive, and
-                  effortless. Users shouldn't have to think about the design—they should just
-                  experience the value.
+                  I've learned that the best outcomes happen when you refuse to silo strategy, requirements, and data.
+                  Too many organizations have brilliant strategies disconnected from technical reality, or flawless execution without strategic alignment.
+                  I bridge that gap by integrating all three—always asking: <em>"Why are we doing this? What will success look like? How do we measure it?"</em>
                 </p>
                 <p>
-                  My approach combines deep user research, data-driven decision making, and creative
-                  problem-solving. I'm obsessed with understanding user behavior and translating
-                  those insights into compelling designs.
+                  I'm also a methodology pragmatist. Agile isn't always better than Waterfall—context matters. What matters is choosing the right
+                  framework for your reality, then executing with discipline. I've scaled teams using Scrum, optimized large infrastructure projects
+                  with Kanban, and delivered complex enterprise initiatives with Waterfall. Flexibility is a feature, not a flaw.
                 </p>
                 <p>
-                  Every project is an opportunity to push the boundaries of design and create
-                  something that leaves a lasting impact.
+                  At my core, I'm obsessed with this question: <strong>"How do we turn ambition into reality?"</strong> That's what gets me out of bed.
+                  Not perfection—impact. Not plans—outcomes. Not activity—results.
                 </p>
               </div>
             </GlassCard>
@@ -131,35 +133,45 @@ export function About() {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-3xl font-bold mb-8 text-cyan-400">Education & Certifications</h2>
+            <h2 className="text-3xl font-bold mb-8 text-cyan-400">Professional Roles & Positions</h2>
             <div className="space-y-4">
               <GlassCard>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="font-bold text-lg">Bachelor of Fine Arts in Graphic Design</h3>
-                    <p className="text-white/70">California Institute of the Arts</p>
-                  </div>
-                  <span className="text-cyan-400 font-semibold">2016</span>
+                <div>
+                  <h3 className="font-bold text-lg">Head of Operations</h3>
+                  <p className="text-white/70">FareNow Limited (Superapps)</p>
+                  <p className="text-white/60 text-sm mt-2">Orchestrated operations for a multi-service superapp scaling across regions. Optimized workflows, built operational strategy, and ensured quality at scale.</p>
                 </div>
               </GlassCard>
 
               <GlassCard>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="font-bold text-lg">Google UX Design Professional Certificate</h3>
-                    <p className="text-white/70">Coursera</p>
-                  </div>
-                  <span className="text-cyan-400 font-semibold">2019</span>
+                <div>
+                  <h3 className="font-bold text-lg">Operations Specialist</h3>
+                  <p className="text-white/70">Farerun Limited (Logistics)</p>
+                  <p className="text-white/60 text-sm mt-2">Transformed logistics operations by identifying efficiency gaps, redesigning processes, and implementing data-driven optimization strategies.</p>
                 </div>
               </GlassCard>
 
               <GlassCard>
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="font-bold text-lg">Design Systems Certification</h3>
-                    <p className="text-white/70">Interaction Design Foundation</p>
-                  </div>
-                  <span className="text-cyan-400 font-semibold">2021</span>
+                <div>
+                  <h3 className="font-bold text-lg">General Manager & Product Manager</h3>
+                  <p className="text-white/70">Softkodes Technologies (Software Development)</p>
+                  <p className="text-white/60 text-sm mt-2">Bridged product vision and technical execution. Managed roadmaps, led cross-functional teams, and delivered software solutions aligned with business strategy.</p>
+                </div>
+              </GlassCard>
+
+              <GlassCard>
+                <div>
+                  <h3 className="font-bold text-lg">Quality Specialist</h3>
+                  <p className="text-white/70">Blendko (Fashion Tech)</p>
+                  <p className="text-white/60 text-sm mt-2">Ensured product excellence without sacrificing speed. Implemented quality frameworks that balanced rapid iteration with high standards.</p>
+                </div>
+              </GlassCard>
+
+              <GlassCard>
+                <div>
+                  <h3 className="font-bold text-lg">Technical Consultant</h3>
+                  <p className="text-white/70">Delta Ride (GovTech)</p>
+                  <p className="text-white/60 text-sm mt-2">Navigated complex regulatory and technical requirements. Advised on architecture, delivery strategy, and stakeholder alignment in the government tech space.</p>
                 </div>
               </GlassCard>
             </div>
