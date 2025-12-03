@@ -23,7 +23,7 @@ export function About() {
     },
     {
       title: 'Data-Driven Conviction',
-      description: 'Let metrics tell the story. I use analytics not just to report—but to predict, influence, and optimize.',
+      description: 'Let metrics tell the story. I use analytics not just to report but to also predict, influence, and optimize.',
     },
     {
       title: 'Integrated Leadership',
@@ -35,7 +35,7 @@ export function About() {
     },
     {
       title: 'Methodological Agility',
-      description: 'Agile, Waterfall, Kanban—use the right tool for the challenge. Context drives methodology, not dogma.',
+      description: 'Agile, Waterfall, Kanban, I make sure to use the right tool for the challenge. Context drives methodology, not dogma.',
     },
     {
       title: 'Relentless Impact',
@@ -57,28 +57,29 @@ export function About() {
           </h1>
 
           <p className="text-white/70 text-lg mb-12 max-w-3xl">
-            I'm Perez Opako—a strategic orchestrator of complex initiatives who thrives at the intersection of business, data, and technology.
+            I'm Perez Opako a strategic orchestrator of complex initiatives who thrives at the intersection of business, data, and technology.
             With 6+ years across startups and enterprises, I've earned a reputation for translating ambitious business visions into scalable,
-            operational realities. My superpower? Seeing the complete picture and connecting the dots that others miss.
+            operational realities.</p>
+            <p className="text-white/70 text-lg mb-12 max-w-3xl -mt-12">
+             My superpower? Seeing the complete picture and connecting the dots that others miss.
           </p>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
             <GlassCard>
               <h2 className="text-2xl font-bold mb-4 text-cyan-400">My Journey</h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  I started my career in operations, solving messy real-world problems on the ground floor. That experience taught me
-                  something invaluable: business excellence isn't about perfect planning—it's about understanding the friction points,
+                  I started my career in operations, solving messy real world problems on the ground floor. That experience taught me
+                  something invaluable: business excellence isn't about perfect planning but it's about understanding the friction points,
                   data signals, and stakeholder needs, then building systems that actually work.
                 </p>
                 <p>
-                  Over six years, I've played different roles deliberately—from operations specialist to product manager to general manager.
+                  Over six years, I've played different roles deliberately from operations specialist to product manager to general manager.
                   Each position taught me a new lens. At FareNow, I orchestrated operations for a superapp scaling across regions. At Farerun,
                   I optimized logistics networks. At Softkodes, I bridged the gap between product vision and technical reality. At Blendko,
                   I ensured quality didn't compromise speed. At Delta Ride, I consulted on govtech complexities.
                 </p>
                 <p>
-                  The pattern? I'm energized by complexity. I don't run from the hard problems—I break them down, find the leverage points,
+                  The pattern? I'm energized by complexity. I don't run from the hard problems instead I break them down, find the leverage points,
                   and build teams that execute with clarity and purpose. My career is a testament to strategic flexibility and obsessive focus
                   on measurable outcomes.
                 </p>
@@ -89,19 +90,27 @@ export function About() {
               <h2 className="text-2xl font-bold mb-4 text-blue-400">My Philosophy</h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  I've learned that the best outcomes happen when you refuse to silo strategy, requirements, and data.
-                  Too many organizations have brilliant strategies disconnected from technical reality, or flawless execution without strategic alignment.
-                  I bridge that gap by integrating all three—always asking: <em>"Why are we doing this? What will success look like? How do we measure it?"</em>
+                   <p>
+  I've learned that siloed thinking is the enemy of great outcomes.
+   Too many organizations operate with brilliant strategies that ignore technical constraints, or flawless execution that drifts from strategic intent. 
+   I bridge that gap by weaving strategy, requirements, and data into one coherent narrative by always asking: 
+   <em>"Why are we doing this?,  What does success actually look like? and  How will we know when we've won?"</em>
+               </p>
                 </p>
                 <p>
-                  I'm also a methodology pragmatist. Agile isn't always better than Waterfall—context matters. What matters is choosing the right
-                  framework for your reality, then executing with discipline. I've scaled teams using Scrum, optimized large infrastructure projects
-                  with Kanban, and delivered complex enterprise initiatives with Waterfall. Flexibility is a feature, not a flaw.
+                 <p>
+  I'm also a methodology pragmatist. I don't believe in dogma. This fact is this  Agile isn't inherently 
+  better than Waterfall, and Kanban isn't a cure-all. 
+  What matters is choosing the right framework for your context, then executing with discipline. I've scaled teams with Scrum, optimized infrastructure projects with Kanban, 
+  and delivered complex enterprise initiatives with Waterfall. 
+  Flexibility isn't a weakness—it's a competitive advantage.
+</p>
                 </p>
-                <p>
-                  At my core, I'm obsessed with this question: <strong>"How do we turn ambition into reality?"</strong> That's what gets me out of bed.
-                  Not perfection—impact. Not plans—outcomes. Not activity—results.
-                </p>
+               <p>
+  At my core, I'm obsessed with one question: <strong>"How do we turn ambition into reality?"</strong> 
+  That's what drives me every single day. I don't chase perfection, rather I chase impact. I don't live in plans instead i choose to live in outcomes. Activity without results is just motion. 
+  Results are what matter.
+</p>
               </div>
             </GlassCard>
           </div>

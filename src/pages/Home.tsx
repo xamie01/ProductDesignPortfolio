@@ -94,7 +94,7 @@ export function Home() {
                   <p className="text-sm text-white/60">Impact Driven</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-purple-400">15+</p>
+                  <p className="text-3xl font-bold text-purple-400">40+</p>
                   <p className="text-sm text-white/60">Team Members Led</p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export function Home() {
                   style={{ backfaceVisibility: 'hidden' }}
                 >
                   <img 
-                    src="/IMG-20251202-WA0041.jpg" 
+                    src="/ProfilePic.jpg" 
                     alt="Perez Okpako" 
                     className="w-full h-full object-cover"
                   />
@@ -185,7 +185,7 @@ export function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black mb-4">What I Bring</h2>
-            <p className="text-white/60 max-w-2xl mx-auto">Strategic thinking combined with hands-on execution. I don't just plan—I deliver.</p>
+            <p className="text-white/60 max-w-2xl mx-auto">Strategic thinking combined with hands-on execution. I don't just plan but I deliver. Professional excellence is guaranteed.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

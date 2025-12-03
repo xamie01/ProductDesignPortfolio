@@ -93,23 +93,23 @@ export function Experience() {
             <ul className="space-y-3 text-white/70">
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span><strong>Strategic SDLC Orchestration:</strong> I see the complete picture—how strategy flows into requirements, how requirements map to execution, and how execution feeds back into strategy.</span>
+                <span>See the complete picture. Strategy flows into requirements, requirements map to execution, and execution feeds back into strategy. That integration is where impact lives.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span><strong>Dual Methodology Mastery:</strong> Agile for speed and iteration. Waterfall for complexity and structure. Kanban for continuous flow. I match methodology to context, not dogma.</span>
+                <span>Context over dogma. Agile for speed, Waterfall for complexity, Kanban for flow. I don't force methodology instead I match it to your reality.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span><strong>Data-Driven Decision Making:</strong> I don't guess. I measure. Every decision is backed by metrics, insights, and a clear line of sight to business outcomes.</span>
+                <span>Numbers tell the truth. Every decision is backed by data, every trade-off is measured, every outcome is connected to business reality.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span><strong>Scalable Delivery:</strong> I build systems that work at scale. From startup MVPs to enterprise platforms, I translate vision into sustainable, operational reality.</span>
+                <span>Built startup MVPs and scaled enterprise platforms. I know how to translate vision into sustainable systems that actually work under pressure.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span><strong>Team & Stakeholder Leadership:</strong> I communicate complexity clearly. I align teams around shared outcomes. I drive accountability without micromanagement.</span>
+                <span>Lead by clarity, not control. Simplify complex problems. Align teams around outcomes. Drive accountability through transparency, not micromanagement.</span>
               </li>
             </ul>
           </GlassCard>

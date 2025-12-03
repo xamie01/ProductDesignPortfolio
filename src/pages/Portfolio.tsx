@@ -12,6 +12,7 @@ interface Company {
   keyAchievements: string[];
   focus: string;
   image_color: string;
+  image_url: string;
 }
 
 export function Portfolio() {
@@ -36,6 +37,7 @@ export function Portfolio() {
       ],
       focus: 'Operations, Strategy, Process Optimization',
       image_color: 'from-cyan-500 to-blue-500',
+      image_url: '/Farenow.jpg',
     },
     {
       id: '2',
@@ -54,6 +56,7 @@ export function Portfolio() {
       ],
       focus: 'Logistics, Data Analysis, Operations',
       image_color: 'from-blue-500 to-purple-500',
+      image_url: '/Farerun.jpg',
     },
     {
       id: '3',
@@ -72,6 +75,7 @@ export function Portfolio() {
       ],
       focus: 'Product Management, Team Leadership, Software Strategy',
       image_color: 'from-purple-500 to-pink-500',
+      image_url: '/Softkodes.jpg',
     },
     {
       id: '4',
@@ -90,6 +94,7 @@ export function Portfolio() {
       ],
       focus: 'Quality Assurance, Testing Strategy, Process Excellence',
       image_color: 'from-pink-500 to-red-500',
+      image_url: '/Blendko.jpg',
     },
     {
       id: '5',
@@ -108,6 +113,7 @@ export function Portfolio() {
       ],
       focus: 'GovTech, Compliance, Stakeholder Management',
       image_color: 'from-red-500 to-orange-500',
+      image_url: '/DeltaRide.jpg',
     },
     {
       id: '6',
@@ -126,6 +132,7 @@ export function Portfolio() {
       ],
       focus: 'Operations, Sustainability, Data Strategy',
       image_color: 'from-green-500 to-emerald-500',
+      image_url: '/CleanEarth.jpg',
     },
   ];
 
@@ -190,9 +197,16 @@ export function Portfolio() {
                   onClick={() => setSelectedCompany(company)}
                   className="h-full cursor-pointer overflow-hidden group"
                 >
-                  <div className={`relative h-48 rounded-xl mb-4 bg-gradient-to-br ${company.image_color} p-8 flex flex-col justify-end`}>
-                    <h3 className="text-3xl font-bold text-white drop-shadow-lg">{company.name}</h3>
-                    <p className="text-white/90 text-sm drop-shadow-md">{company.type}</p>
+                  <div className="relative h-48 rounded-xl mb-4 overflow-hidden">
+                    <img 
+                      src={company.image_url} 
+                      alt={company.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
+                      <h3 className="text-3xl font-bold text-white drop-shadow-lg">{company.name}</h3>
+                      <p className="text-white/90 text-sm drop-shadow-md">{company.type}</p>
+                    </div>
                   </div>
 
                   <p className="text-sm text-cyan-400 font-semibold mb-2">{company.role}</p>
@@ -223,9 +237,16 @@ export function Portfolio() {
                   <X size={24} />
                 </button>
 
-                <div className={`h-56 rounded-xl mb-6 bg-gradient-to-br ${selectedCompany.image_color} p-8 flex flex-col justify-end`}>
-                  <h2 className="text-4xl font-bold text-white drop-shadow-lg">{selectedCompany.name}</h2>
-                  <p className="text-white/90 drop-shadow-md">{selectedCompany.type}</p>
+                <div className="relative h-56 rounded-xl mb-6 overflow-hidden">
+                  <img 
+                    src={selectedCompany.image_url} 
+                    alt={selectedCompany.name}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-6">
+                    <h2 className="text-4xl font-bold text-white drop-shadow-lg">{selectedCompany.name}</h2>
+                    <p className="text-white/90 drop-shadow-md">{selectedCompany.type}</p>
+                  </div>
                 </div>
 
                 <div className="space-y-6">

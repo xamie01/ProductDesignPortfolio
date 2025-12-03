@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
 import { GlassCard } from '../components';
-import { supabase } from '../lib/supabase';
 import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
+
+// Initialize EmailJS
+emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY || '');
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -27,11 +30,17 @@ export function Contact() {
     setError('');
 
     try {
-      const { error: insertError } = await supabase
-        .from('contact_submissions')
-        .insert([formData]);
-
-      if (insertError) throw insertError;
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID || '',
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '',
+        {
+          to_email: 'perezokp@gmail.com',
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }
+      );
 
       setSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -94,7 +103,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold">Location</h3>
-                  <p className="text-white/70 text-sm">Warri, Delta State, NG</p>
+                  <p className="text-white/70 text-sm">Lagos, NIGERIA</p>
                 </div>
               </div>
             </GlassCard>
