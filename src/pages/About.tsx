@@ -14,6 +14,7 @@ export function About() {
     'Stakeholder Management',
     'Operations Optimization',
     'Team Leadership',
+    'Quality Management',
   ];
 
   const values = [
@@ -23,19 +24,19 @@ export function About() {
     },
     {
       title: 'Data-Driven Conviction',
-      description: 'Let metrics tell the story. I use analytics not just to report but to also predict, influence, and optimize.',
+      description: 'Numbers drive actions. Analytics transform from simple scorecards into tools for prediction, which aid in decision-making, and continuous improvement.',
     },
     {
       title: 'Integrated Leadership',
-      description: 'Combine PM, BA, and DA perspectives to see problems from every angle and solve them completely.',
+      description: 'Combine PM, BA, QA and DA perspectives to see problems from every angle and solve them completely.',
     },
     {
       title: 'Operational Obsession',
-      description: 'Strategy without execution is fantasy. I build systems, processes, and teams that deliver at scale.',
+      description: 'Without execution strategy is just a pipe dream. That is why i build teams, processes, and systems that deliver at scale.',
     },
     {
       title: 'Methodological Agility',
-      description: 'Agile, Waterfall, Kanban, I make sure to use the right tool for the challenge. Context drives methodology, not dogma.',
+      description: 'Whether it is Agile, Waterfall, or Kanban, the right approch is choosen for each challenge.The situation determines the method, not rigid rules '
     },
     {
       title: 'Relentless Impact',
@@ -68,20 +69,28 @@ export function About() {
               <h2 className="text-2xl font-bold mb-4 text-cyan-400">My Journey</h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  I started my career in operations, solving messy real world problems on the ground floor. That experience taught me
-                  something invaluable: business excellence isn't about perfect planning but it's about understanding the friction points,
-                  data signals, and stakeholder needs, then building systems that actually work.
+                 A career originating in operations, solving real and messy world 
+                 problems from the ground up showed a truer truth: it is not perfect plans that 
+                 drives a business success, 
+                 but spotting where things get stuck, reading the 
+                 signals in the data understanding what people need, and creating systems  
+                 that genuinely work.'    
+              
                 </p>
                 <p>
-                  Over six years, I've played different roles deliberately from operations specialist to product manager to general manager.
-                  Each position taught me a new lens. At FareNow, I orchestrated operations for a superapp scaling across regions. At Farerun,
-                  I optimized logistics networks. At Softkodes, I bridged the gap between product vision and technical reality. At Blendko,
-                  I ensured quality didn't compromise speed. At Delta Ride, I consulted on govtech complexities.
+                   Six years across deliberately varied roles like Operations Specialist, Product Manager, and general manager 
+                   each offering a fresh perspective. At FareNow, coordinating operations 
+                   for a multi-regions Superapp; at Farerun, streamling logistics networks; 
+                   at Softkodes connecting product ideas with technical exection; at
+                    Blendko, balancing quality with speed; at DeltaRide, 
+                    braving the Govtech challenge as a consultant.
                 </p>
                 <p>
-                  The pattern? I'm energized by complexity. I don't run from the hard problems instead I break them down, find the leverage points,
-                  and build teams that execute with clarity and purpose. My career is a testament to strategic flexibility and obsessive focus
-                  on measurable outcomes.
+                  The common thread? Complexity is energizing not intimidating.
+                  Hard problems get broken down, leverage points identified, and
+                  teams built that move forward with clarity and purpose.
+                  This track record shows  strategic adaptability paired with 
+                  relentless focus on results that can be measured.
                 </p>
               </div>
             </GlassCard>
@@ -91,26 +100,31 @@ export function About() {
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
                    <p>
-  I've learned that siloed thinking is the enemy of great outcomes.
-   Too many organizations operate with brilliant strategies that ignore technical constraints, or flawless execution that drifts from strategic intent. 
-   I bridge that gap by weaving strategy, requirements, and data into one coherent narrative by always asking: 
-   <em>"Why are we doing this?,  What does success actually look like? and  How will we know when we've won?"</em>
-               </p>
+                    When teams work in seperate bubbles, good outcomes rarely follow.
+                    Organizations often have brilliant strategies that clash with technical 
+                    realities, or flawless execution that loses sight of the bigger picture.
+                     Bridging that gap means weaving together strategy, needs, and data into 
+                     one coherent story; always keeping in mind: "Why does this matter? 
+                    What does winning look like? How will success be measured?"
+                   </p>
                 </p>
                 <p>
                  <p>
-  I'm also a methodology pragmatist. I don't believe in dogma. This fact is this  Agile isn't inherently 
-  better than Waterfall, and Kanban isn't a cure-all. 
-  What matters is choosing the right framework for your context, then executing with discipline. I've scaled teams with Scrum, optimized infrastructure projects with Kanban, 
-  and delivered complex enterprise initiatives with Waterfall. 
-  Flexibility isn't a weakness—it's a competitive advantage.
-</p>
+                  There's no room for dogmatic views on methodologies. 
+                  Agile isn't always better than Waterfall, and Kanban 
+                  doesn't solve every problem. What matters is matching the
+                   framework to the challenge, then executing it well.
+                    Experience spans scaling teams with Scrum, streamlining 
+                    infrastructure with Kanban,
+                   and delivering major enterprise projects with Waterfall.
+                 </p>
                 </p>
                <p>
-  At my core, I'm obsessed with one question: <strong>"How do we turn ambition into reality?"</strong> 
-  That's what drives me every single day. I don't chase perfection, rather I chase impact. I don't live in plans instead i choose to live in outcomes. Activity without results is just motion. 
-  Results are what matter.
-</p>
+                Adaptability isn't a compromise; it's an edge.
+                Everything centers on one question: <strong>"How does ambition translate into reality?"</strong>
+                That drives every decision. The focus isn't perfection; it's impact. 
+                Not dwelling in plans, but delivering outcomes
+               </p>
               </div>
             </GlassCard>
           </div>

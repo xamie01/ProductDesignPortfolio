@@ -185,7 +185,7 @@ export function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-black mb-4">What I Bring</h2>
-            <p className="text-white/60 max-w-2xl mx-auto">Strategic thinking combined with hands-on execution. I don't just plan but I deliver. Professional excellence is guaranteed.</p>
+            <p className="text-white/60 max-w-2xl mx-auto">Strategic vision combined with hands-on execution. This approach delivers tangible outcomes backed by consistent professional quality</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -220,7 +220,7 @@ export function Home() {
               </span>
             </h2>
             <p className="text-white/60 text-lg mb-8 max-w-2xl mx-auto">
-              Let's talk about how I can help your organization scale, optimize, and deliver exceptional results.
+              Let's discus how to help your organization scale, optimize and deliver exceptional results.
             </p>
             <Link
               to="/contact"

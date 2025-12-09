@@ -93,7 +93,7 @@ export function Experience() {
             <ul className="space-y-3 text-white/70">
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span>See the complete picture. Strategy flows into requirements, requirements map to execution, and execution feeds back into strategy. That integration is where impact lives.</span>
+                <span>See the complete picture. Strategy flows into requirements, requirements map into execution, and execution feeds back into strategy. That's where integration lives, where impact lives.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
@@ -101,15 +101,15 @@ export function Experience() {
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span>Numbers tell the truth. Every decision is backed by data, every trade-off is measured, every outcome is connected to business reality.</span>
+                <span>Numbers don't lie: Data inform each decision, quantify each trade-off, and link every outcome back to business realities.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span>Built startup MVPs and scaled enterprise platforms. I know how to translate vision into sustainable systems that actually work under pressure.</span>
+                <span>I have built startup MVPs and scaled enterprise platforms. I know how to translate vision into sustainable systems that actually work under pressure.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
-                <span>Lead by clarity, not control. Simplify complex problems. Align teams around outcomes. Drive accountability through transparency, not micromanagement.</span>
+                <span>Lead by clarity, not control: Simplify complex problems. Align teams around outcomes. Drive accountability through transparency, not micromanagement.</span>
               </li>
             </ul>
           </GlassCard>
