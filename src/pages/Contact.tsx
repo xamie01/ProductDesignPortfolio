@@ -201,7 +201,7 @@ export function Contact() {
             <GlassCard>
               <h3 className="text-xl font-bold mb-4 text-blue-400">Looking For</h3>
               <p className="text-white/70">
-                I'm open to exciting design projects, consulting opportunities, and speaking
+                I'm open to exciting projects, consulting opportunities, and speaking
                 engagements. Let's discuss how I can help bring your vision to life.
               </p>
             </GlassCard>
