@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, CheckCircle2, Zap, Target } from 'lucide-react';
 import { GlassCard } from '../components';
+import profilePic from '/ProfilePic.jpg';
 
 export function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -117,28 +118,28 @@ export function Home() {
                   className="absolute inset-0 rounded-2xl flex flex-col items-center justify-center p-0 overflow-hidden"
                   style={{ backfaceVisibility: 'hidden' }}
                 >
-                  <img 
-                    src="/ProfilePic.jpg" 
-                    alt="Perez Okpako" 
+                  <img
+                    src={profilePic}
+                    alt="Perez Okpako"
                     className="w-full h-full object-cover"
                   />
                 </div>
 
                 {/* Back Side */}
                 <div
-                  className="absolute inset-0 bg-black rounded-2xl backdrop-blur-xl border border-white/20 flex flex-col items-center justify-center p-8"
+                  className="absolute inset-0 bg-white rounded-2xl border border-slate-200 flex flex-col items-center justify-center p-8"
                   style={{
                     backfaceVisibility: 'hidden',
                     transform: 'rotateY(180deg)',
                   }}
                 >
                   <div className="text-center space-y-4">
-                    <div className="text-8xl font-black bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                    <div className="text-8xl font-black bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
                       6+
                     </div>
                     <div>
-                      <p className="text-xl font-semibold text-white">Years of Excellence</p>
-                      <p className="text-sm text-white/60 mt-2">Strategic SDLC Leadership</p>
+                      <p className="text-xl font-semibold text-slate-900">Years of Excellence</p>
+                      <p className="text-sm text-slate-600 mt-2">Strategic SDLC Leadership</p>
                     </div>
                   </div>
                 </div>
