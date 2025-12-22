@@ -259,18 +259,13 @@ function App() {
     <div className="antialiased selection:bg-rose-500/30 overflow-x-hidden">
       
       {/* Dynamic Navigation */}
-      <nav className={`fixed top-0 w-full z-50 px-6 md:px-12 transition-colors duration-500 bg-white/90 py-6 ${
-        scrolled ? 'backdrop-blur-xl border-b border-slate-200/80' : 'border-b border-transparent'
-      } ${
-        activeSection === 'home' ? 'text-rose-700' : 
-        activeSection === 'about' ? 'text-slate-900' :
-        activeSection === 'experience' || activeSection === 'portfolio' ? 'text-rose-600' :
-        'text-rose-700'
+      <nav className={`fixed top-0 w-full z-50 px-6 md:px-12 transition-colors duration-500 bg-[#f5f5dc]/95 py-6 text-slate-700 ${
+        scrolled ? 'backdrop-blur-xl border-b border-slate-300/60' : 'border-b border-transparent'
       }`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <button onClick={() => scrollTo('home')} className="flex flex-col items-start text-left">
-            <span className="text-2xl md:text-3xl font-serif font-black tracking-tighter">Perez Okpako.</span>
-            <span className={`text-[8px] uppercase tracking-[0.6em] font-bold ${activeSection === 'about' ? 'text-slate-400' : 'opacity-40'}`}>
+            <span className="text-2xl md:text-3xl font-serif font-black tracking-tighter text-slate-700">Perez Okpako.</span>
+            <span className="text-[8px] uppercase tracking-[0.6em] font-bold text-slate-500">
               Strategic SDLC Orchestration
             </span>
           </button>
