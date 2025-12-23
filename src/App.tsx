@@ -489,7 +489,7 @@ function App() {
         {/* SECTION 4: PORTFOLIO - THE VAULT CONTINUED */}
         <section 
           ref={sectionRefs.portfolio}
-          className="min-h-screen bg-[#F5F5F5] text-slate-900 px-4 sm:px-6 md:px-12 lg:px-24 py-20 sm:py-32 md:py-40 relative overflow-hidden"
+          className="min-h-screen bg-[#f5f5dc] text-slate-900 px-4 sm:px-6 md:px-12 lg:px-24 py-20 sm:py-32 md:py-40 relative overflow-hidden"
         >
           <div className="absolute top-1/2 right-0 w-[50%] h-[80%] bg-rose-200/40 rounded-full blur-[140px] pointer-events-none"></div>
 
