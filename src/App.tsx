@@ -8,7 +8,6 @@ import {
   X,
   ChevronDown,
   Activity,
-  Terminal,
   Cpu,
   ArrowUpRight,
   TrendingUp,
@@ -436,23 +435,27 @@ function App() {
 
             <div className="space-y-px bg-[#0f0f11] border border-rose-800/50 rounded-[3rem] overflow-hidden shadow-2xl">
               {experiences.map((exp, i) => (
-                <div key={i} className="group grid grid-cols-1 lg:grid-cols-12 gap-12 p-12 md:p-16 border-b border-rose-800/50 bg-[#0f0f11] transition-colors duration-400 text-rose-50 hover:bg-[#f6e9d5] hover:text-slate-900">
-                  <div className="lg:col-span-2 font-mono text-xs text-rose-200 group-hover:text-rose-600 pt-3 flex items-center gap-3">
-                    <Terminal size={14} /> {exp.year}
-                  </div>
-                  <div className="lg:col-span-4">
-                    <h3 className="text-3xl md:text-5xl font-mono uppercase tracking-tighter transition-colors flex items-center gap-4 group-hover:text-rose-700">
+                <div key={i} className="group grid grid-cols-1 lg:grid-cols-12 gap-10 sm:gap-12 p-10 sm:p-12 md:p-16 border-b border-rose-800/50 bg-[#0f0f11] transition-colors duration-400 text-rose-50 hover:bg-[#f6e9d5] hover:text-slate-900">
+                  <div className="lg:col-span-5 space-y-3">
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-mono uppercase tracking-tighter transition-colors flex items-center gap-4 group-hover:text-rose-700">
                       {exp.position} <ArrowUpRight className="opacity-0 group-hover:opacity-100 transition-opacity" size={24} />
                     </h3>
-                    <p className="text-[11px] font-bold text-rose-200/80 tracking-[0.4em] uppercase mt-4 flex items-center gap-2 group-hover:text-slate-600">
+                    <p className="text-[11px] font-bold text-rose-200/80 tracking-[0.4em] uppercase flex items-center gap-2 group-hover:text-slate-600">
                       <Cpu size={12} /> {exp.company} <span className="text-rose-200/60 group-hover:text-slate-500">{exp.focus}</span>
                     </p>
+                    <p className="text-xs font-mono uppercase tracking-[0.35em] text-rose-300 group-hover:text-rose-600">[{exp.context}]</p>
                   </div>
-                  <div className="lg:col-span-6">
-                    <p className="text-xl font-light text-rose-100 leading-relaxed font-mono italic group-hover:text-slate-700">
-                      <span className="text-rose-300 font-bold mr-6 text-sm group-hover:text-rose-600">[{exp.context}]</span>
-                      "{exp.description}"
-                    </p>
+                  <div className="lg:col-span-7 space-y-3">
+                    {exp.description.split('. ').map((sentence, idx) => (
+                      sentence.trim() && (
+                        <p
+                          key={`${exp.company}-${idx}`}
+                          className="text-base sm:text-lg font-light leading-relaxed font-mono italic group-hover:text-slate-700 break-words"
+                        >
+                          {sentence.trim()}{sentence.trim().endsWith('.') ? '' : '.'}
+                        </p>
+                      )
+                    ))}
                   </div>
                 </div>
               ))}
